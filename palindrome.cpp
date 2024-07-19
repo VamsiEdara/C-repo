@@ -21,3 +21,6 @@ int main()
 
     return 0;
 }
+// Time Complexity: 
+// O(log(n)), where n is the input number.
+//     Time Complexity: O(log10 n), where n is the input number. 
