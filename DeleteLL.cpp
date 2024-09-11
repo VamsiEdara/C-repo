@@ -18,6 +18,7 @@ public:
     ~Node()
     {
         cout << "Deleted value" << this->data;
+        delete next; // Recursively delete the entire list
     }
 };
 int findLength(Node *&head)
